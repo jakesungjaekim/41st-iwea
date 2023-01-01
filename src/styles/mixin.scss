@@ -1,0 +1,8 @@
+// 내부 변수 값 수정
+
+@mixin flex($direction, $align, $justify) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+}
